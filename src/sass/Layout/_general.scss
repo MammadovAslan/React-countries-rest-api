@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: none;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+.light-mode {
+  @include light-mode;
+}
+
+.dark-mode {
+  @include dark-mode;
+}
+
+.active-button {
+  background-color: rgb(66, 142, 209) !important;
+}

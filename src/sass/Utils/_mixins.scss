@@ -1,0 +1,83 @@
+@mixin dark-mode {
+  background-color: $mainBlue;
+  * {
+    color: $white;
+  }
+  .header {
+    background-color: $darkBlue;
+  }
+  .container {
+    #search-input,
+    #filter {
+      background-color: $darkBlue;
+    }
+    #countries-container {
+      .countrie {
+        background-color: $darkBlue;
+      }
+    }
+    .pagination {
+      .pagination-button {
+        background-color: $veryDarkBlue;
+      }
+    }
+  }
+  #detailed-information {
+    background-color: $mainBlue;
+    .back-button,
+    .close-button {
+      background-color: $darkBlue;
+    }
+    .inform-container {
+      .information {
+        .borders {
+          .border-countrie {
+            background-color: $darkBlue;
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin light-mode {
+  * {
+    color: $mainBlue;
+  }
+  background-color: $veryLightGrey;
+  .header {
+    background-color: $white;
+  }
+  .container {
+    #search-input,
+    #filter {
+      background-color: $white;
+    }
+    #countries-container {
+      .countrie {
+        background-color: $white;
+      }
+    }
+    .pagination {
+      .pagination-button {
+        background-color: $white;
+      }
+    }
+  }
+  #detailed-information {
+    background-color: $veryLightGrey;
+    .back-button,
+    .close-button {
+      background-color: $veryLightGrey;
+    }
+    .inform-container {
+      .information {
+        .borders {
+          .border-countrie {
+            background-color: $white;
+          }
+        }
+      }
+    }
+  }
+}
