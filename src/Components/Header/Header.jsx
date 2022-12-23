@@ -31,7 +31,7 @@ const Header = (props) => {
 
   return (
     <header className="header" style={style}>
-      <NavLink to="/">
+      <NavLink to="/React-countries-rest-api">
         <h1 className="title">Where in the world?</h1>
       </NavLink>
       <div

@@ -26,7 +26,7 @@ const DetailedInfo = ({ countries }) => {
         <button className="back-button" onClick={() => navigate(-1)}>
           <i className="fa-solid fa-arrow-left"></i>Back
         </button>
-        <button className="close-button" onClick={() => navigate("/")}>
+        <button className="close-button" onClick={() => navigate("/React-countries-rest-api")}>
           <i className="fa-solid fa-xmark"></i>
         </button>
       </div>

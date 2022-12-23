@@ -62,7 +62,7 @@ function App() {
       <Header mode={mode} setMode={setMode} />
       <Routes>
         <Route
-          path="/"
+          path="/React-countries-rest-api"
           element={
             <Main
               countries={currentPosts}
